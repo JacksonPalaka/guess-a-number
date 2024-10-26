@@ -1,4 +1,4 @@
-let randomNumber = parseInt(Math.random() * 100 + 1)
+let randomNumber = parseInt(Math.random() * 10 + 1)
 
 const submit = document.querySelector('#subt')
 const userInput = document.querySelector('#guessField')
@@ -81,7 +81,7 @@ function endGame() {
 function newGame() {
     const newGameButton = document.querySelector('#newGame')
     newGameButton.addEventListener('click',function(e){
-        randomNumber = parseInt(Math.random() * 100 + 1)
+        randomNumber = parseInt(Math.random() * 10 + 1)
         previousGuess=[]
         numGuess=0
         guessSlot.innerHTML=''
