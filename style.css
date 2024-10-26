@@ -1,0 +1,34 @@
+body{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;    
+    background-color: #212121;
+    color: white;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    /* width: 400px; */
+    justify-content: center;
+    align-items: center;
+}
+#guessField{
+    width: 300px;
+    height: 30px;
+    margin: 40px;
+    text-align: center;
+}
+#guess{
+    font-size: 70px;
+}
+
+#subt{
+    padding: 10px;
+    width: fit-content;
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+
+}
